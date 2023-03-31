@@ -4,7 +4,7 @@ if [ -z "$FSWEB" ]; then
 sudo apt-get install fswebcam
 fi
 SIZES=('176x144' '320x240' '352x288' '640x360' '640x480' '1280x720')
-echo -n "Enter the number of fotos: "; read -n 1 FRAMES
+echo -n "Enter the number of photos: "; read -n 1 FRAMES
 echo ""
 echo "1. ${SIZES[0]}"
 echo "2. ${SIZES[1]}"
